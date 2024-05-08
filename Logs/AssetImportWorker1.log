@@ -1,0 +1,281 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.19f1 (244b723c30a6) revision 2378610'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ru' Physical Memory: 6091 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\software\unity\2022.3.19f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+D:/education/game/candyKiller
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+1729
+Successfully changed project path to: D:/education/game/candyKiller
+D:/education/game/candyKiller
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [14688] Host "[IP] 192.168.1.3 [Port] 0 [Flags] 2 [Guid] 860625342 [EditorId] 860625342 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-LDTUA3M) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [14688] Host "[IP] 192.168.1.3 [Port] 0 [Flags] 2 [Guid] 860625342 [EditorId] 860625342 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-LDTUA3M) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Refreshing native plugins compatible for Editor in 11.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.19f1 (244b723c30a6)
+[Subsystems] Discovering subsystems at path D:/software/unity/2022.3.19f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/education/game/candyKiller/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) Vega 8 Graphics (ID=0x15d8)
+    Vendor:   ATI
+    VRAM:     3045 MB
+    Driver:   30.0.13044.10001
+Initialize mono
+Mono path[0] = 'D:/software/unity/2022.3.19f1/Editor/Data/Managed'
+Mono path[1] = 'D:/software/unity/2022.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/software/unity/2022.3.19f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56852
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/software/unity/2022.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.011373 seconds.
+- Loaded All Assemblies, in  0.915 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.711 seconds
+Domain Reload Profiling: 1626ms
+	BeginReloadAssembly (301ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (71ms)
+	RebuildNativeTypeToScriptingClass (24ms)
+	initialDomainReloadingComplete (114ms)
+	LoadAllAssembliesAndSetupDomain (405ms)
+		LoadAssemblies (300ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (401ms)
+			TypeCache.Refresh (399ms)
+				TypeCache.ScanAssembly (363ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (712ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (562ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (18ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (5ms)
+			ProcessInitializeOnLoadAttributes (383ms)
+			ProcessInitializeOnLoadMethodAttributes (137ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.791 seconds
+Refreshing native plugins compatible for Editor in 5.23 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.518 seconds
+Domain Reload Profiling: 3311ms
+	BeginReloadAssembly (334ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (47ms)
+	RebuildCommonClasses (80ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (93ms)
+	LoadAllAssembliesAndSetupDomain (1264ms)
+		LoadAssemblies (865ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (591ms)
+			TypeCache.Refresh (532ms)
+				TypeCache.ScanAssembly (450ms)
+			ScanForSourceGeneratedMonoScriptInfo (38ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (1519ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1114ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (12ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (182ms)
+			ProcessInitializeOnLoadAttributes (846ms)
+			ProcessInitializeOnLoadMethodAttributes (52ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 4.08 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3383 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 46 unused Assets / (195.2 KB). Loaded Objects now: 3855.
+Memory consumption went from 157.4 MB to 157.2 MB.
+Total: 6.981900 ms (FindLiveObjects: 0.830800 ms CreateObjectMapping: 0.203500 ms MarkObjects: 5.609400 ms  DeleteObjects: 0.334800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 523138.706124 seconds.
+  path: Assets/Zombies/Zombie4/Girlscout T Masuyama.fbx
+  artifactKey: Guid(1b0292f8d8602bf4ba300daa000d794a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/Zombie4/Girlscout T Masuyama.fbx using Guid(1b0292f8d8602bf4ba300daa000d794a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '742e168f5b4529809b2d766223165e3d') in 0.350527 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 150
+========================================================================
+Received Import Request.
+  Time since last request: 385.364754 seconds.
+  path: Assets/Zombies/Zombie4/Animations/Not So Scary Zombie Pack girlscout/walking (2).fbx
+  artifactKey: Guid(2da5f9bee01cc1a48b4f635f43318d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/Zombie4/Animations/Not So Scary Zombie Pack girlscout/walking (2).fbx using Guid(2da5f9bee01cc1a48b4f635f43318d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d542d0a9f9ffb02926502fdb8bcf0d6') in 0.011104 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 139
+========================================================================
+Received Import Request.
+  Time since last request: 0.001375 seconds.
+  path: Assets/Zombies/Zombie4/Animations/Not So Scary Zombie Pack girlscout/zombie idle (3).fbx
+  artifactKey: Guid(f9b017f2e5c818847a83045ad1f0337c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/Zombie4/Animations/Not So Scary Zombie Pack girlscout/zombie idle (3).fbx using Guid(f9b017f2e5c818847a83045ad1f0337c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '101427f0ade157dfb9a79d97cd37b196') in 0.011512 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 139
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Zombies/Zombie4/Animations/Not So Scary Zombie Pack girlscout/zombie punching (2).fbx
+  artifactKey: Guid(cd6e740b42104a54d9af157ee592314e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/Zombie4/Animations/Not So Scary Zombie Pack girlscout/zombie punching (2).fbx using Guid(cd6e740b42104a54d9af157ee592314e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0add26d3e9db40b0ad11ac1e8da11fb6') in 0.022233 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 139
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Zombies/Zombie4/Animations/Not So Scary Zombie Pack girlscout/zombie reaction hit (2).fbx
+  artifactKey: Guid(931d8d4257be5964ab243de9a0e7638b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/Zombie4/Animations/Not So Scary Zombie Pack girlscout/zombie reaction hit (2).fbx using Guid(931d8d4257be5964ab243de9a0e7638b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '745533bc531822773e54776b88abca67') in 0.016821 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 139
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Zombies/Zombie4/Animations/Not So Scary Zombie Pack girlscout/zombie stand up (2).fbx
+  artifactKey: Guid(f62fc99169e13b7458754215f1a78e7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/Zombie4/Animations/Not So Scary Zombie Pack girlscout/zombie stand up (2).fbx using Guid(f62fc99169e13b7458754215f1a78e7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceff84bb87ac55701bf4a8f660c8716e') in 0.016840 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 139
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/Zombies/Zombie4/Animations/Not So Scary Zombie Pack girlscout/zombie idle (4).fbx
+  artifactKey: Guid(3c40f79a56df12845847f2fb6e452521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/Zombie4/Animations/Not So Scary Zombie Pack girlscout/zombie idle (4).fbx using Guid(3c40f79a56df12845847f2fb6e452521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4420c2d6be8006b3aa7b37291595fa3') in 0.009737 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 139
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/Zombies/Zombie4/Animations/Not So Scary Zombie Pack girlscout/zombie stumbling.fbx
+  artifactKey: Guid(3f747497acfe37b42b7df0a1a65a8936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/Zombie4/Animations/Not So Scary Zombie Pack girlscout/zombie stumbling.fbx using Guid(3f747497acfe37b42b7df0a1a65a8936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1b597401f9bb55d61dc7dc63f4df362') in 0.023751 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 139
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Zombies/Zombie4/Animations/Not So Scary Zombie Pack girlscout/zombie kicking.fbx
+  artifactKey: Guid(3451619fbe4d46548a429601efc45552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/Zombie4/Animations/Not So Scary Zombie Pack girlscout/zombie kicking.fbx using Guid(3451619fbe4d46548a429601efc45552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0e61027f13910ecb84b3d787eb9730a') in 0.015323 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 139
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/Zombies/Zombie4/Animations/Not So Scary Zombie Pack girlscout/zombie punching.fbx
+  artifactKey: Guid(59fe33004f97f614b808d89638e917c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/Zombie4/Animations/Not So Scary Zombie Pack girlscout/zombie punching.fbx using Guid(59fe33004f97f614b808d89638e917c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '430b8f6357af5ef8722b9de371f44894') in 0.014668 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 139
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Zombies/Zombie4/Animations/Not So Scary Zombie Pack girlscout/zombie transition.fbx
+  artifactKey: Guid(7d5bc719032c6ee4abb991de307b6006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/Zombie4/Animations/Not So Scary Zombie Pack girlscout/zombie transition.fbx using Guid(7d5bc719032c6ee4abb991de307b6006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c40d3831b833d09f30098849970e648f') in 0.010720 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 139
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Zombies/Zombie4/Animations/Not So Scary Zombie Pack girlscout/zombie stand up (3).fbx
+  artifactKey: Guid(2be0427d1b4650d41a4e0b5f6c2a04a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/Zombie4/Animations/Not So Scary Zombie Pack girlscout/zombie stand up (3).fbx using Guid(2be0427d1b4650d41a4e0b5f6c2a04a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04923b49e4ce3ab5807a8a9125c957a5') in 0.015529 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 139
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: ќпераци€ ввода/вывода была прервана из-за завершени€ потока команд или по запросу приложени€.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

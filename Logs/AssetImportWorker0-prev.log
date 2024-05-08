@@ -1,0 +1,553 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.19f1 (244b723c30a6) revision 2378610'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ru' Physical Memory: 6091 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\software\unity\2022.3.19f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/education/game/candyKiller
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+2602
+Successfully changed project path to: D:/education/game/candyKiller
+D:/education/game/candyKiller
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [6488] Host "[IP] 192.168.1.3 [Port] 0 [Flags] 2 [Guid] 882814342 [EditorId] 882814342 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-LDTUA3M) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [6488] Host "[IP] 192.168.1.3 [Port] 0 [Flags] 2 [Guid] 882814342 [EditorId] 882814342 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-LDTUA3M) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Refreshing native plugins compatible for Editor in 31.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.19f1 (244b723c30a6)
+[Subsystems] Discovering subsystems at path D:/software/unity/2022.3.19f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/education/game/candyKiller/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) Vega 8 Graphics (ID=0x15d8)
+    Vendor:   ATI
+    VRAM:     3045 MB
+    Driver:   30.0.13044.10001
+Initialize mono
+Mono path[0] = 'D:/software/unity/2022.3.19f1/Editor/Data/Managed'
+Mono path[1] = 'D:/software/unity/2022.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/software/unity/2022.3.19f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56456
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/software/unity/2022.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007248 seconds.
+- Loaded All Assemblies, in  0.873 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.649 seconds
+Domain Reload Profiling: 1522ms
+	BeginReloadAssembly (315ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (73ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (125ms)
+	LoadAllAssembliesAndSetupDomain (336ms)
+		LoadAssemblies (315ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (328ms)
+			TypeCache.Refresh (325ms)
+				TypeCache.ScanAssembly (294ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (650ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (516ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (18ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (5ms)
+			ProcessInitializeOnLoadAttributes (358ms)
+			ProcessInitializeOnLoadMethodAttributes (118ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.492 seconds
+Refreshing native plugins compatible for Editor in 3.25 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.084 seconds
+Domain Reload Profiling: 2576ms
+	BeginReloadAssembly (340ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (51ms)
+	RebuildCommonClasses (78ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (82ms)
+	LoadAllAssembliesAndSetupDomain (971ms)
+		LoadAssemblies (796ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (369ms)
+			TypeCache.Refresh (333ms)
+				TypeCache.ScanAssembly (306ms)
+			ScanForSourceGeneratedMonoScriptInfo (27ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1085ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (800ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (106ms)
+			ProcessInitializeOnLoadAttributes (637ms)
+			ProcessInitializeOnLoadMethodAttributes (34ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 4.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3383 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 46 unused Assets / (195.3 KB). Loaded Objects now: 3855.
+Memory consumption went from 154.9 MB to 154.7 MB.
+Total: 6.300200 ms (FindLiveObjects: 0.652600 ms CreateObjectMapping: 0.746600 ms MarkObjects: 4.589400 ms  DeleteObjects: 0.309600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 503124.222952 seconds.
+  path: Assets/Zombies/Zombie3
+  artifactKey: Guid(df60ea6525e9fd947876fecac2f634ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/Zombie3 using Guid(df60ea6525e9fd947876fecac2f634ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14e433f26871c7fa2436ce68d6218c97') in 0.004444 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 12.247792 seconds.
+  path: Assets/Zombies/Zombie3/Parasite L Starkie.fbx
+  artifactKey: Guid(8e94ef6b509555e4b8ca0bdc6063d5c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/Zombie3/Parasite L Starkie.fbx using Guid(8e94ef6b509555e4b8ca0bdc6063d5c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a307175587b532458031ca12aebc28c7') in 0.387150 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 149
+========================================================================
+Received Import Request.
+  Time since last request: 20.339402 seconds.
+  path: Assets/Zombies/Zombie2
+  artifactKey: Guid(0885d2d75848c1645a9c5aa587f92d9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/Zombie2 using Guid(0885d2d75848c1645a9c5aa587f92d9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b85d33953e1290b11282ccb23c13ba4') in 0.000875 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 389.963221 seconds.
+  path: Assets/Zombies/Zombie4
+  artifactKey: Guid(4ecea460de122c440b4ba613a98fa417) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/Zombie4 using Guid(4ecea460de122c440b4ba613a98fa417) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64f2e6224a1b219b8a29329277a46493') in 0.000775 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 6.340677 seconds.
+  path: Assets/Zombies/Zombie4/Girlscout T Masuyama.fbx
+  artifactKey: Guid(1b0292f8d8602bf4ba300daa000d794a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/Zombie4/Girlscout T Masuyama.fbx using Guid(1b0292f8d8602bf4ba300daa000d794a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5d5f18582e6b6697005ff866aeeaf65') in 0.515150 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 145
+========================================================================
+Received Import Request.
+  Time since last request: 12.480956 seconds.
+  path: Assets/Zombies/Zombie4/Not So Scary Zombie Pack girlscout.zip
+  artifactKey: Guid(4b3503ae741ddac44946d97101051859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/Zombie4/Not So Scary Zombie Pack girlscout.zip using Guid(4b3503ae741ddac44946d97101051859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '252e09360a80d88045d04b530e6bfe25') in 0.001285 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 136.943493 seconds.
+  path: Assets/Zombies/Zombie5
+  artifactKey: Guid(475a334f3df290447854876e7c95f600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/Zombie5 using Guid(475a334f3df290447854876e7c95f600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b92b8fe08f983811ea88c4917570a503') in 0.000964 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 6.348386 seconds.
+  path: Assets/Zombies/Zombie6
+  artifactKey: Guid(30de79e1f411dbe46a3747c0dc314f41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/Zombie6 using Guid(30de79e1f411dbe46a3747c0dc314f41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a80d3fbaf311b9f411c4f6f8c1a8ca5') in 0.001000 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 44.799129 seconds.
+  path: Assets/Zombies/Zombie5/copzombie_l_actisdato.fbx
+  artifactKey: Guid(bbf1dde8b3938fc4d98d84ea4dbe385c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/Zombie5/copzombie_l_actisdato.fbx using Guid(bbf1dde8b3938fc4d98d84ea4dbe385c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7561d5dad783651e3804af3bff86d8d3') in 0.131723 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 159
+========================================================================
+Received Import Request.
+  Time since last request: 269.402817 seconds.
+  path: Assets/Zombies/Zombie5/Textures
+  artifactKey: Guid(9f3dd77c597ef4a48a1d8593b8e716e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/Zombie5/Textures using Guid(9f3dd77c597ef4a48a1d8593b8e716e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2bca0d981e8afd29ffa3eeee2c191ad') in 0.001234 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 7.619467 seconds.
+  path: Assets/Zombies/Zombie5/Textures/Materials
+  artifactKey: Guid(0f0467fa869e03042b75c53c8c05b0e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/Zombie5/Textures/Materials using Guid(0f0467fa869e03042b75c53c8c05b0e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcdc1635d4e38b512960e71a668ff180') in 0.000883 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 14.018948 seconds.
+  path: Assets/Zombies/Zombie5/Materials
+  artifactKey: Guid(222201c3e8626a643bfbc72d45894ee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/Zombie5/Materials using Guid(222201c3e8626a643bfbc72d45894ee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd74a671b3338f596f45d841b3c3537ce') in 0.000946 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.987387 seconds.
+  path: Assets/Zombies/Zombie3/Materials
+  artifactKey: Guid(6491fc4df6bb9ef40b68136bf86b9a23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/Zombie3/Materials using Guid(6491fc4df6bb9ef40b68136bf86b9a23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e0be7ca64a8bd81a896de175e5d1ebf') in 0.001080 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.440121 seconds.
+  path: Assets/Zombies/Zombie4/Materials
+  artifactKey: Guid(3c50be8fc020e7a4e9e3c07df5a96617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/Zombie4/Materials using Guid(3c50be8fc020e7a4e9e3c07df5a96617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '812d77ee191967cd88b13e781cf8803a') in 0.001165 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.802814 seconds.
+  path: Assets/Zombies/Zombie6/Pumpkinhulk L Shaw.fbx
+  artifactKey: Guid(03356974f99ff0547b78c796d17eeb89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/Zombie6/Pumpkinhulk L Shaw.fbx using Guid(03356974f99ff0547b78c796d17eeb89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c941fdbab6507dcd70d7ef554344fc43') in 0.066762 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 142
+========================================================================
+Received Import Request.
+  Time since last request: 0.401934 seconds.
+  path: Assets/Zombies/Zombie6/Materials
+  artifactKey: Guid(5078b6540118e9e4ba481fea7c0a17f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/Zombie6/Materials using Guid(5078b6540118e9e4ba481fea7c0a17f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9261e1ed16fcc8daf61a24f7772eabef') in 0.000970 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 35.640045 seconds.
+  path: Assets/Zombies/Zombie3/Parasite L Starkie.fbx
+  artifactKey: Guid(8e94ef6b509555e4b8ca0bdc6063d5c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/Zombie3/Parasite L Starkie.fbx using Guid(8e94ef6b509555e4b8ca0bdc6063d5c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cfaad02b898cacd7af9c054e9a2f9cf') in 0.109667 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 152
+========================================================================
+Received Import Request.
+  Time since last request: 3.003710 seconds.
+  path: Assets/Zombies/Zombie3/Parasite L Starkie.fbx
+  artifactKey: Guid(8e94ef6b509555e4b8ca0bdc6063d5c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/Zombie3/Parasite L Starkie.fbx using Guid(8e94ef6b509555e4b8ca0bdc6063d5c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4c20bc1aff6cd27a47aea00cee5af0a') in 0.087162 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 152
+========================================================================
+Received Import Request.
+  Time since last request: 2.460109 seconds.
+  path: Assets/Zombies/Zombie3/Parasite L Starkie.fbx
+  artifactKey: Guid(8e94ef6b509555e4b8ca0bdc6063d5c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/Zombie3/Parasite L Starkie.fbx using Guid(8e94ef6b509555e4b8ca0bdc6063d5c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07de08741ce41697979644e0d7f354fb') in 0.073553 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 152
+========================================================================
+Received Import Request.
+  Time since last request: 11.575625 seconds.
+  path: Assets/Zombies/Zombie4/Girlscout T Masuyama.fbx
+  artifactKey: Guid(1b0292f8d8602bf4ba300daa000d794a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/Zombie4/Girlscout T Masuyama.fbx using Guid(1b0292f8d8602bf4ba300daa000d794a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf45219bc46029022ab4e2a9f67e3b0a') in 0.399455 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 148
+========================================================================
+Received Import Request.
+  Time since last request: 3.082296 seconds.
+  path: Assets/Zombies/Zombie4/Girlscout T Masuyama.fbx
+  artifactKey: Guid(1b0292f8d8602bf4ba300daa000d794a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/Zombie4/Girlscout T Masuyama.fbx using Guid(1b0292f8d8602bf4ba300daa000d794a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8d454059fb95714c4e505bd3311956f') in 0.077570 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 148
+========================================================================
+Received Import Request.
+  Time since last request: 1.711214 seconds.
+  path: Assets/Zombies/Zombie4/Girlscout T Masuyama.fbx
+  artifactKey: Guid(1b0292f8d8602bf4ba300daa000d794a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/Zombie4/Girlscout T Masuyama.fbx using Guid(1b0292f8d8602bf4ba300daa000d794a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92a1771b3d64dd08e4e3f8d207d0c048') in 0.099065 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 148
+========================================================================
+Received Import Request.
+  Time since last request: 12.827815 seconds.
+  path: Assets/Zombies/Zombie5/copzombie_l_actisdato.fbx
+  artifactKey: Guid(bbf1dde8b3938fc4d98d84ea4dbe385c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/Zombie5/copzombie_l_actisdato.fbx using Guid(bbf1dde8b3938fc4d98d84ea4dbe385c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0210525d14a8055f81cbd0013badfec9') in 0.160391 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 162
+========================================================================
+Received Import Request.
+  Time since last request: 2.550152 seconds.
+  path: Assets/Zombies/Zombie5/copzombie_l_actisdato.fbx
+  artifactKey: Guid(bbf1dde8b3938fc4d98d84ea4dbe385c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/Zombie5/copzombie_l_actisdato.fbx using Guid(bbf1dde8b3938fc4d98d84ea4dbe385c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d22da30c33c159c33cd9b373aa2f21c') in 0.163987 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 162
+========================================================================
+Received Import Request.
+  Time since last request: 2.201525 seconds.
+  path: Assets/Zombies/Zombie5/copzombie_l_actisdato.fbx
+  artifactKey: Guid(bbf1dde8b3938fc4d98d84ea4dbe385c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/Zombie5/copzombie_l_actisdato.fbx using Guid(bbf1dde8b3938fc4d98d84ea4dbe385c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5739057112d931519d944203493372e5') in 0.120044 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 162
+========================================================================
+Received Import Request.
+  Time since last request: 6.322940 seconds.
+  path: Assets/Zombies/Zombie6/Pumpkinhulk L Shaw.fbx
+  artifactKey: Guid(03356974f99ff0547b78c796d17eeb89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/Zombie6/Pumpkinhulk L Shaw.fbx using Guid(03356974f99ff0547b78c796d17eeb89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c02ecdc3f0c59a28f0250a98e32c8bab') in 0.078553 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 144
+========================================================================
+Received Import Request.
+  Time since last request: 2.764867 seconds.
+  path: Assets/Zombies/Zombie6/Pumpkinhulk L Shaw.fbx
+  artifactKey: Guid(03356974f99ff0547b78c796d17eeb89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/Zombie6/Pumpkinhulk L Shaw.fbx using Guid(03356974f99ff0547b78c796d17eeb89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70156d1a407e809e522dff0aa667dcbc') in 0.078836 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 144
+========================================================================
+Received Import Request.
+  Time since last request: 2.728785 seconds.
+  path: Assets/Zombies/Zombie6/Pumpkinhulk L Shaw.fbx
+  artifactKey: Guid(03356974f99ff0547b78c796d17eeb89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/Zombie6/Pumpkinhulk L Shaw.fbx using Guid(03356974f99ff0547b78c796d17eeb89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a8b246182f48ea9ff38371fc299a621') in 0.057420 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 144
+========================================================================
+Received Import Request.
+  Time since last request: 457.358957 seconds.
+  path: Assets/Zombies/Zombie5/copzombie_l_actisdato.fbx
+  artifactKey: Guid(bbf1dde8b3938fc4d98d84ea4dbe385c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/Zombie5/copzombie_l_actisdato.fbx using Guid(bbf1dde8b3938fc4d98d84ea4dbe385c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b68c4c9f3d5468e26270276694859529') in 0.182217 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 164
+========================================================================
+Received Import Request.
+  Time since last request: 165.804939 seconds.
+  path: Assets/Zombies/Zombie5/Animations
+  artifactKey: Guid(f1ac187c99a84fc438b1dff002ae0c1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/Zombie5/Animations using Guid(f1ac187c99a84fc438b1dff002ae0c1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d2abe31cbafc04ec6f190923a6071ea') in 0.001119 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 51.650185 seconds.
+  path: Assets/Zombies/Zombie5/Animations/Zombie3.controller
+  artifactKey: Guid(a5c5b262feb9f3f4684988aac79c72ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/Zombie5/Animations/Zombie3.controller using Guid(a5c5b262feb9f3f4684988aac79c72ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7ad35ea0e32f7b246feae7aa382ee7d') in 0.012843 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 101.300563 seconds.
+  path: Assets/Zombies/Zombie5/Animations/Not So Scary Zombie Pack cop
+  artifactKey: Guid(50c3e8053f8a03d4d8d9b459306a825a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/Zombie5/Animations/Not So Scary Zombie Pack cop using Guid(50c3e8053f8a03d4d8d9b459306a825a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4892beb9fc58fd183d8fa8b43b5a6097') in 0.000751 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.691584 seconds.
+  path: Assets/Zombies/Zombie5/Animations/Not So Scary Zombie Pack cop/walking.fbx
+  artifactKey: Guid(9384c92fa52c638488482c734b0431c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/Zombie5/Animations/Not So Scary Zombie Pack cop/walking.fbx using Guid(9384c92fa52c638488482c734b0431c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38897d22b5bddfe8fd87d4dc8f41ac7d') in 0.007097 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 139
+========================================================================
+Received Import Request.
+  Time since last request: 0.005429 seconds.
+  path: Assets/Zombies/Zombie5/Animations/Not So Scary Zombie Pack cop/zombie attack.fbx
+  artifactKey: Guid(1d0c56fd8318f3b4287d271971478a07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/Zombie5/Animations/Not So Scary Zombie Pack cop/zombie attack.fbx using Guid(1d0c56fd8318f3b4287d271971478a07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f044978b49a7d7108a4ca81cc20ff006') in 0.013313 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 139
+========================================================================
+Received Import Request.
+  Time since last request: 0.013804 seconds.
+  path: Assets/Zombies/Zombie5/Animations/Not So Scary Zombie Pack cop/zombie idle.fbx
+  artifactKey: Guid(cdb1b38b4186bce488ec9b85a8421695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/Zombie5/Animations/Not So Scary Zombie Pack cop/zombie idle.fbx using Guid(cdb1b38b4186bce488ec9b85a8421695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be7f67e181303f2558a6e02e0e3500e4') in 0.021577 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 139
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Zombies/Zombie5/Animations/Not So Scary Zombie Pack cop/zombie running.fbx
+  artifactKey: Guid(735421cb55122324e9fb6d1e5e3ee617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/Zombie5/Animations/Not So Scary Zombie Pack cop/zombie running.fbx using Guid(735421cb55122324e9fb6d1e5e3ee617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43fd17cfd4f161c0364ca64f8d078023') in 0.013293 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 139
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Zombies/Zombie5/Animations/Not So Scary Zombie Pack cop/zombie kicking (2).fbx
+  artifactKey: Guid(1b1dc1ca9d581544caa4652f0075d3e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/Zombie5/Animations/Not So Scary Zombie Pack cop/zombie kicking (2).fbx using Guid(1b1dc1ca9d581544caa4652f0075d3e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '920c1e812eb1b736227571b7edfc2254') in 0.015000 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 139
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Zombies/Zombie5/Animations/Not So Scary Zombie Pack cop/zombie kicking.fbx
+  artifactKey: Guid(8f22f389a3ed19b44bebdc84f71161a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/Zombie5/Animations/Not So Scary Zombie Pack cop/zombie kicking.fbx using Guid(8f22f389a3ed19b44bebdc84f71161a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '828802cae011f1f644b4169d99ce93eb') in 0.012685 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 139
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Zombies/Zombie5/Animations/Not So Scary Zombie Pack cop/zombie stumbling.fbx
+  artifactKey: Guid(0afbdb2437103d74cb2925e04f7e919c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/Zombie5/Animations/Not So Scary Zombie Pack cop/zombie stumbling.fbx using Guid(0afbdb2437103d74cb2925e04f7e919c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '417468444375920340f7f61357e769bf') in 0.010439 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 139
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Zombies/Zombie5/Animations/Not So Scary Zombie Pack cop/zombie reaction hit (2).fbx
+  artifactKey: Guid(f7478f16ad152ca44afee931ea81fb26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/Zombie5/Animations/Not So Scary Zombie Pack cop/zombie reaction hit (2).fbx using Guid(f7478f16ad152ca44afee931ea81fb26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f66aafad670865a645d856674705938') in 0.019313 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 139
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Zombies/Zombie5/Animations/Not So Scary Zombie Pack cop/zombie headbutt.fbx
+  artifactKey: Guid(ef17a0da87aaecf41bd15e2d169942c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/Zombie5/Animations/Not So Scary Zombie Pack cop/zombie headbutt.fbx using Guid(ef17a0da87aaecf41bd15e2d169942c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0022b513edfb3b62418aba8f95923cd') in 0.014828 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 139
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Zombies/Zombie5/Animations/Not So Scary Zombie Pack cop/zombie transition (2).fbx
+  artifactKey: Guid(e16dddff09702c648b78df32d9a23fd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/Zombie5/Animations/Not So Scary Zombie Pack cop/zombie transition (2).fbx using Guid(e16dddff09702c648b78df32d9a23fd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4530f6a4b32067a025ab821db0bd6a51') in 0.011497 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 139
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Zombies/Zombie5/Animations/Not So Scary Zombie Pack cop/zombie stand up (2).fbx
+  artifactKey: Guid(61dc69c94e6f3a440ac53588124df8f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/Zombie5/Animations/Not So Scary Zombie Pack cop/zombie stand up (2).fbx using Guid(61dc69c94e6f3a440ac53588124df8f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e95625c2d38325ffc2c8792250179c52') in 0.013536 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 139
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Zombies/Zombie5/Animations/Not So Scary Zombie Pack cop/zombie turn.fbx
+  artifactKey: Guid(f9e17638059c89642ac0f80d9e4de034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/Zombie5/Animations/Not So Scary Zombie Pack cop/zombie turn.fbx using Guid(f9e17638059c89642ac0f80d9e4de034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a02f0bbf2aaa46539852dff971fc0b22') in 0.009832 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 139
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Zombies/Zombie5/Animations/Not So Scary Zombie Pack cop/zombie punching.fbx
+  artifactKey: Guid(1b58a52d355e7764798c485231baa02e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/Zombie5/Animations/Not So Scary Zombie Pack cop/zombie punching.fbx using Guid(1b58a52d355e7764798c485231baa02e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94e4cf66baa541a857e5a8183e56a275') in 0.009522 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 139
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Zombies/Zombie5/Animations/Not So Scary Zombie Pack cop/zombie transition.fbx
+  artifactKey: Guid(a349bd77e7c2af54bb9bb1953afcf625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/Zombie5/Animations/Not So Scary Zombie Pack cop/zombie transition.fbx using Guid(a349bd77e7c2af54bb9bb1953afcf625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aff034058a4891c9750a70333283d25') in 0.008111 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 139
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: ќпераци€ ввода/вывода была прервана из-за завершени€ потока команд или по запросу приложени€.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
