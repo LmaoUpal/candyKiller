@@ -15,7 +15,7 @@ D:/education/game/candyKiller
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-2602
+13694
 Successfully changed project path to: D:/education/game/candyKiller
 D:/education/game/candyKiller
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ D:/education/game/candyKiller
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [6488] Host "[IP] 192.168.1.3 [Port] 0 [Flags] 2 [Guid] 882814342 [EditorId] 882814342 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-LDTUA3M) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [13036] Host "[IP] 192.168.1.3 [Port] 0 [Flags] 2 [Guid] 882632445 [EditorId] 882632445 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-LDTUA3M) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [6488] Host "[IP] 192.168.1.3 [Port] 0 [Flags] 2 [Guid] 882814342 [EditorId] 882814342 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-LDTUA3M) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [13036] Host "[IP] 192.168.1.3 [Port] 0 [Flags] 2 [Guid] 882632445 [EditorId] 882632445 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-LDTUA3M) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
-Refreshing native plugins compatible for Editor in 31.46 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 29.67 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.19f1 (244b723c30a6)
 [Subsystems] Discovering subsystems at path D:/software/unity/2022.3.19f1/Editor/Data/Resources/UnitySubsystems
@@ -70,43 +70,43 @@ Initialize mono
 Mono path[0] = 'D:/software/unity/2022.3.19f1/Editor/Data/Managed'
 Mono path[1] = 'D:/software/unity/2022.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/software/unity/2022.3.19f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56456
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56052
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/software/unity/2022.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007248 seconds.
-- Loaded All Assemblies, in  0.873 seconds
+Registered in 0.021163 seconds.
+- Loaded All Assemblies, in  0.944 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.649 seconds
-Domain Reload Profiling: 1522ms
-	BeginReloadAssembly (315ms)
+- Finished resetting the current domain, in  0.824 seconds
+Domain Reload Profiling: 1769ms
+	BeginReloadAssembly (333ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (73ms)
-	RebuildNativeTypeToScriptingClass (23ms)
-	initialDomainReloadingComplete (125ms)
-	LoadAllAssembliesAndSetupDomain (336ms)
-		LoadAssemblies (315ms)
+	RebuildCommonClasses (79ms)
+	RebuildNativeTypeToScriptingClass (26ms)
+	initialDomainReloadingComplete (163ms)
+	LoadAllAssembliesAndSetupDomain (343ms)
+		LoadAssemblies (332ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (328ms)
-			TypeCache.Refresh (325ms)
-				TypeCache.ScanAssembly (294ms)
+		AnalyzeDomain (339ms)
+			TypeCache.Refresh (334ms)
+				TypeCache.ScanAssembly (298ms)
 			ScanForSourceGeneratedMonoScriptInfo (1ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (650ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (826ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (516ms)
+		SetupLoadedEditorAssemblies (647ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (17ms)
-			SetLoadedEditorAssemblies (18ms)
+			InitializePlatformSupportModulesInManaged (33ms)
+			SetLoadedEditorAssemblies (22ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (5ms)
-			ProcessInitializeOnLoadAttributes (358ms)
+			BeforeProcessingInitializeOnLoad (9ms)
+			ProcessInitializeOnLoadAttributes (466ms)
 			ProcessInitializeOnLoadMethodAttributes (118ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
@@ -115,55 +115,55 @@ Domain Reload Profiling: 1522ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.492 seconds
-Refreshing native plugins compatible for Editor in 3.25 ms, found 3 plugins.
+- Loaded All Assemblies, in  2.299 seconds
+Refreshing native plugins compatible for Editor in 5.63 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.084 seconds
-Domain Reload Profiling: 2576ms
-	BeginReloadAssembly (340ms)
+- Finished resetting the current domain, in  1.543 seconds
+Domain Reload Profiling: 3868ms
+	BeginReloadAssembly (386ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (13ms)
+		DisableScriptedObjects (16ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (51ms)
-	RebuildCommonClasses (78ms)
-	RebuildNativeTypeToScriptingClass (21ms)
-	initialDomainReloadingComplete (82ms)
-	LoadAllAssembliesAndSetupDomain (971ms)
-		LoadAssemblies (796ms)
+		CreateAndSetChildDomain (43ms)
+	RebuildCommonClasses (72ms)
+	RebuildNativeTypeToScriptingClass (26ms)
+	initialDomainReloadingComplete (145ms)
+	LoadAllAssembliesAndSetupDomain (1696ms)
+		LoadAssemblies (1088ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (369ms)
-			TypeCache.Refresh (333ms)
-				TypeCache.ScanAssembly (306ms)
-			ScanForSourceGeneratedMonoScriptInfo (27ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (1085ms)
+		AnalyzeDomain (820ms)
+			TypeCache.Refresh (719ms)
+				TypeCache.ScanAssembly (658ms)
+			ScanForSourceGeneratedMonoScriptInfo (79ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (1544ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (800ms)
+		SetupLoadedEditorAssemblies (1116ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (7ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (12ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (106ms)
-			ProcessInitializeOnLoadAttributes (637ms)
-			ProcessInitializeOnLoadMethodAttributes (34ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (0ms)
+			BeforeProcessingInitializeOnLoad (153ms)
+			ProcessInitializeOnLoadAttributes (869ms)
+			ProcessInitializeOnLoadMethodAttributes (64ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (13ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
-Refreshing native plugins compatible for Editor in 4.36 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (20ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
+Refreshing native plugins compatible for Editor in 6.48 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3383 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 46 unused Assets / (195.3 KB). Loaded Objects now: 3855.
-Memory consumption went from 154.9 MB to 154.7 MB.
-Total: 6.300200 ms (FindLiveObjects: 0.652600 ms CreateObjectMapping: 0.746600 ms MarkObjects: 4.589400 ms  DeleteObjects: 0.309600 ms)
+Unloading 3384 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 46 unused Assets / (195.1 KB). Loaded Objects now: 3856.
+Memory consumption went from 157.5 MB to 157.3 MB.
+Total: 12.030800 ms (FindLiveObjects: 0.897300 ms CreateObjectMapping: 0.546400 ms MarkObjects: 10.224900 ms  DeleteObjects: 0.360200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -180,372 +180,495 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 503124.222952 seconds.
-  path: Assets/Zombies/Zombie3
-  artifactKey: Guid(df60ea6525e9fd947876fecac2f634ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie3 using Guid(df60ea6525e9fd947876fecac2f634ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14e433f26871c7fa2436ce68d6218c97') in 0.004444 seconds
+  Time since last request: 765848.091814 seconds.
+  path: Assets/Ice Cream Truck/ice-cream-truck
+  artifactKey: Guid(e33916d99dabb6c46be6996d01fa27a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Cream Truck/ice-cream-truck using Guid(e33916d99dabb6c46be6996d01fa27a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b0e378a4851ee14f543a493197d636a') in 0.005891 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 12.247792 seconds.
-  path: Assets/Zombies/Zombie3/Parasite L Starkie.fbx
-  artifactKey: Guid(8e94ef6b509555e4b8ca0bdc6063d5c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie3/Parasite L Starkie.fbx using Guid(8e94ef6b509555e4b8ca0bdc6063d5c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a307175587b532458031ca12aebc28c7') in 0.387150 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 149
-========================================================================
-Received Import Request.
-  Time since last request: 20.339402 seconds.
-  path: Assets/Zombies/Zombie2
-  artifactKey: Guid(0885d2d75848c1645a9c5aa587f92d9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie2 using Guid(0885d2d75848c1645a9c5aa587f92d9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b85d33953e1290b11282ccb23c13ba4') in 0.000875 seconds
+  Time since last request: 0.188616 seconds.
+  path: Assets/Ice Cream Truck/ice-cream-truck/source
+  artifactKey: Guid(f304ae3612a986e4389ae87e06e3dbd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Cream Truck/ice-cream-truck/source using Guid(f304ae3612a986e4389ae87e06e3dbd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e819a02d228d94f654c4b8b725f9eae') in 0.001730 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 389.963221 seconds.
-  path: Assets/Zombies/Zombie4
-  artifactKey: Guid(4ecea460de122c440b4ba613a98fa417) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie4 using Guid(4ecea460de122c440b4ba613a98fa417) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64f2e6224a1b219b8a29329277a46493') in 0.000775 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 6.340677 seconds.
-  path: Assets/Zombies/Zombie4/Girlscout T Masuyama.fbx
-  artifactKey: Guid(1b0292f8d8602bf4ba300daa000d794a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie4/Girlscout T Masuyama.fbx using Guid(1b0292f8d8602bf4ba300daa000d794a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5d5f18582e6b6697005ff866aeeaf65') in 0.515150 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 145
-========================================================================
-Received Import Request.
-  Time since last request: 12.480956 seconds.
-  path: Assets/Zombies/Zombie4/Not So Scary Zombie Pack girlscout.zip
-  artifactKey: Guid(4b3503ae741ddac44946d97101051859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie4/Not So Scary Zombie Pack girlscout.zip using Guid(4b3503ae741ddac44946d97101051859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '252e09360a80d88045d04b530e6bfe25') in 0.001285 seconds
+  Time since last request: 1.865365 seconds.
+  path: Assets/Ice Cream Truck/ice-cream-truck/source/car base low poly.zip
+  artifactKey: Guid(1fe9a09417cbf4c4cb2258c57e406b77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Cream Truck/ice-cream-truck/source/car base low poly.zip using Guid(1fe9a09417cbf4c4cb2258c57e406b77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af6f9bf6f8f7b9bad7c4fe9f7420cc4f') in 0.031426 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 136.943493 seconds.
-  path: Assets/Zombies/Zombie5
-  artifactKey: Guid(475a334f3df290447854876e7c95f600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie5 using Guid(475a334f3df290447854876e7c95f600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b92b8fe08f983811ea88c4917570a503') in 0.000964 seconds
+  Time since last request: 43.564598 seconds.
+  path: Assets/Ice Cream Truck/ice-cream-truck/source/car base low poly
+  artifactKey: Guid(a096a18aafeb4cf4bb617e7cfa3bb93e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Cream Truck/ice-cream-truck/source/car base low poly using Guid(a096a18aafeb4cf4bb617e7cfa3bb93e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af40ee5494d815272e11b52de85ca87f') in 0.000788 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 6.348386 seconds.
-  path: Assets/Zombies/Zombie6
-  artifactKey: Guid(30de79e1f411dbe46a3747c0dc314f41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie6 using Guid(30de79e1f411dbe46a3747c0dc314f41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a80d3fbaf311b9f411c4f6f8c1a8ca5') in 0.001000 seconds
+  Time since last request: 0.061282 seconds.
+  path: Assets/Ice Cream Truck/ice-cream-truck/source/car base low poly/car base low poly.obj
+  artifactKey: Guid(8be5ff99e1861084781446e6c699fd80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Cream Truck/ice-cream-truck/source/car base low poly/car base low poly.obj using Guid(8be5ff99e1861084781446e6c699fd80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce315acb99bf73b2e28581dc7fb14c6a') in 6.980263 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1078
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.944 seconds
+Refreshing native plugins compatible for Editor in 3.00 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  4.019 seconds
+Domain Reload Profiling: 4963ms
+	BeginReloadAssembly (303ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (64ms)
+	RebuildCommonClasses (75ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (54ms)
+	LoadAllAssembliesAndSetupDomain (490ms)
+		LoadAssemblies (647ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (25ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (4020ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1498ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (18ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (191ms)
+			ProcessInitializeOnLoadAttributes (1129ms)
+			ProcessInitializeOnLoadMethodAttributes (132ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (27ms)
+Refreshing native plugins compatible for Editor in 7.27 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3311 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (167.6 KB). Loaded Objects now: 3915.
+Memory consumption went from 147.8 MB to 147.6 MB.
+Total: 12.252600 ms (FindLiveObjects: 1.460900 ms CreateObjectMapping: 1.119800 ms MarkObjects: 9.223200 ms  DeleteObjects: 0.442900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.921 seconds
+Refreshing native plugins compatible for Editor in 3.00 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.045 seconds
+Domain Reload Profiling: 3967ms
+	BeginReloadAssembly (299ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (66ms)
+	RebuildCommonClasses (68ms)
+	RebuildNativeTypeToScriptingClass (28ms)
+	initialDomainReloadingComplete (53ms)
+	LoadAllAssembliesAndSetupDomain (472ms)
+		LoadAssemblies (615ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (24ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (3047ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1473ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (16ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (207ms)
+			ProcessInitializeOnLoadAttributes (1142ms)
+			ProcessInitializeOnLoadMethodAttributes (80ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (29ms)
+Refreshing native plugins compatible for Editor in 6.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3312 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (167.7 KB). Loaded Objects now: 3930.
+Memory consumption went from 150.0 MB to 149.8 MB.
+Total: 20.003400 ms (FindLiveObjects: 1.559100 ms CreateObjectMapping: 1.075900 ms MarkObjects: 16.649400 ms  DeleteObjects: 0.714000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.897 seconds
+Refreshing native plugins compatible for Editor in 4.63 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.512 seconds
+Domain Reload Profiling: 3409ms
+	BeginReloadAssembly (293ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (60ms)
+	RebuildCommonClasses (69ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (47ms)
+	LoadAllAssembliesAndSetupDomain (462ms)
+		LoadAssemblies (598ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (32ms)
+			TypeCache.Refresh (15ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (2513ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1483ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (20ms)
+			SetLoadedEditorAssemblies (15ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (196ms)
+			ProcessInitializeOnLoadAttributes (1163ms)
+			ProcessInitializeOnLoadMethodAttributes (78ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (29ms)
+Refreshing native plugins compatible for Editor in 8.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3312 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (167.6 KB). Loaded Objects now: 3945.
+Memory consumption went from 151.9 MB to 151.7 MB.
+Total: 15.007500 ms (FindLiveObjects: 1.479900 ms CreateObjectMapping: 1.221300 ms MarkObjects: 11.802100 ms  DeleteObjects: 0.498600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 225.278748 seconds.
+  path: Assets/Ice Cream Truck/ice-cream-truck/source/car base low poly/Textures
+  artifactKey: Guid(8f39e280e26f32d42b18319e7916b763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Cream Truck/ice-cream-truck/source/car base low poly/Textures using Guid(8f39e280e26f32d42b18319e7916b763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa16c9a62831ec5f8a4d8adf08b2b23f') in 0.005341 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 44.799129 seconds.
-  path: Assets/Zombies/Zombie5/copzombie_l_actisdato.fbx
-  artifactKey: Guid(bbf1dde8b3938fc4d98d84ea4dbe385c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie5/copzombie_l_actisdato.fbx using Guid(bbf1dde8b3938fc4d98d84ea4dbe385c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7561d5dad783651e3804af3bff86d8d3') in 0.131723 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 159
-========================================================================
-Received Import Request.
-  Time since last request: 269.402817 seconds.
-  path: Assets/Zombies/Zombie5/Textures
-  artifactKey: Guid(9f3dd77c597ef4a48a1d8593b8e716e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie5/Textures using Guid(9f3dd77c597ef4a48a1d8593b8e716e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2bca0d981e8afd29ffa3eeee2c191ad') in 0.001234 seconds
+  Time since last request: 7.948506 seconds.
+  path: Assets/Ice Cream Truck/ice-cream-truck/source/car base low poly/Materials
+  artifactKey: Guid(25b57609b2cadc544b83d53308a3302e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Cream Truck/ice-cream-truck/source/car base low poly/Materials using Guid(25b57609b2cadc544b83d53308a3302e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94ce50c120565547cc51c794a1d3077a') in 0.000826 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 7.619467 seconds.
-  path: Assets/Zombies/Zombie5/Textures/Materials
-  artifactKey: Guid(0f0467fa869e03042b75c53c8c05b0e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie5/Textures/Materials using Guid(0f0467fa869e03042b75c53c8c05b0e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcdc1635d4e38b512960e71a668ff180') in 0.000883 seconds
+  Time since last request: 9.444588 seconds.
+  path: Assets/Ice Cream Truck/ice-cream-truck/source/car base low poly/car base low poly.obj
+  artifactKey: Guid(8be5ff99e1861084781446e6c699fd80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Cream Truck/ice-cream-truck/source/car base low poly/car base low poly.obj using Guid(8be5ff99e1861084781446e6c699fd80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13b6b5876795365d21a9f6c41bf4b47a') in 3.403954 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 1078
 ========================================================================
 Received Import Request.
-  Time since last request: 14.018948 seconds.
-  path: Assets/Zombies/Zombie5/Materials
-  artifactKey: Guid(222201c3e8626a643bfbc72d45894ee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie5/Materials using Guid(222201c3e8626a643bfbc72d45894ee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd74a671b3338f596f45d841b3c3537ce') in 0.000946 seconds
+  Time since last request: 9.741562 seconds.
+  path: Assets/Ice Cream Truck/ice-cream-truck/source/car base low poly/Materials/group8_lowres_11111_133Mat.mat
+  artifactKey: Guid(7109baf0814edac43be19153d96ac5d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Cream Truck/ice-cream-truck/source/car base low poly/Materials/group8_lowres_11111_133Mat.mat using Guid(7109baf0814edac43be19153d96ac5d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9188f34f4dc9b27243efaba42213483') in 0.100569 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 4.987387 seconds.
-  path: Assets/Zombies/Zombie3/Materials
-  artifactKey: Guid(6491fc4df6bb9ef40b68136bf86b9a23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie3/Materials using Guid(6491fc4df6bb9ef40b68136bf86b9a23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e0be7ca64a8bd81a896de175e5d1ebf') in 0.001080 seconds
+  Time since last request: 0.000120 seconds.
+  path: Assets/Ice Cream Truck/ice-cream-truck/source/car base low poly/Materials/group8_pSphere9Mat.mat
+  artifactKey: Guid(6d5e8bee6c3bddb4880af2f86a354e03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Cream Truck/ice-cream-truck/source/car base low poly/Materials/group8_pSphere9Mat.mat using Guid(6d5e8bee6c3bddb4880af2f86a354e03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6566b216be481e98cecb0a80bcdeff3') in 0.044008 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 2.440121 seconds.
-  path: Assets/Zombies/Zombie4/Materials
-  artifactKey: Guid(3c50be8fc020e7a4e9e3c07df5a96617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie4/Materials using Guid(3c50be8fc020e7a4e9e3c07df5a96617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '812d77ee191967cd88b13e781cf8803a') in 0.001165 seconds
+  Time since last request: 0.000054 seconds.
+  path: Assets/Ice Cream Truck/ice-cream-truck/source/car base low poly/Materials/group8_lowres_11128Mat.mat
+  artifactKey: Guid(d16cd602e9118b64cbbb4e4d4bf33239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Cream Truck/ice-cream-truck/source/car base low poly/Materials/group8_lowres_11128Mat.mat using Guid(d16cd602e9118b64cbbb4e4d4bf33239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0da1d1c082390d7fee14774bfab235d') in 0.065038 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 1.802814 seconds.
-  path: Assets/Zombies/Zombie6/Pumpkinhulk L Shaw.fbx
-  artifactKey: Guid(03356974f99ff0547b78c796d17eeb89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie6/Pumpkinhulk L Shaw.fbx using Guid(03356974f99ff0547b78c796d17eeb89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c941fdbab6507dcd70d7ef554344fc43') in 0.066762 seconds
+  Time since last request: 0.000071 seconds.
+  path: Assets/Ice Cream Truck/ice-cream-truck/source/car base low poly/Materials/group8_lowres_11127Mat.mat
+  artifactKey: Guid(36efeff2dbc633347a194cae457c6b8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Cream Truck/ice-cream-truck/source/car base low poly/Materials/group8_lowres_11127Mat.mat using Guid(36efeff2dbc633347a194cae457c6b8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '224db1969f736ccb14ce6cd96397216e') in 0.062032 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 142
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.401934 seconds.
-  path: Assets/Zombies/Zombie6/Materials
-  artifactKey: Guid(5078b6540118e9e4ba481fea7c0a17f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie6/Materials using Guid(5078b6540118e9e4ba481fea7c0a17f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9261e1ed16fcc8daf61a24f7772eabef') in 0.000970 seconds
+  Time since last request: 0.000078 seconds.
+  path: Assets/Ice Cream Truck/ice-cream-truck/source/car base low poly/Materials/group8_pSphere4Mat.mat
+  artifactKey: Guid(b21c6f5db2a382141ba1cf2dbffb0ed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Cream Truck/ice-cream-truck/source/car base low poly/Materials/group8_pSphere4Mat.mat using Guid(b21c6f5db2a382141ba1cf2dbffb0ed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a0f201c74deeecabd97bd4a42b5cb40') in 0.093833 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 35.640045 seconds.
-  path: Assets/Zombies/Zombie3/Parasite L Starkie.fbx
-  artifactKey: Guid(8e94ef6b509555e4b8ca0bdc6063d5c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie3/Parasite L Starkie.fbx using Guid(8e94ef6b509555e4b8ca0bdc6063d5c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cfaad02b898cacd7af9c054e9a2f9cf') in 0.109667 seconds
+  Time since last request: 0.000097 seconds.
+  path: Assets/Ice Cream Truck/ice-cream-truck/source/car base low poly/Materials/group8_lowres_11118Mat.mat
+  artifactKey: Guid(3067e91a8c315464a8a79f32c707cdd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Cream Truck/ice-cream-truck/source/car base low poly/Materials/group8_lowres_11118Mat.mat using Guid(3067e91a8c315464a8a79f32c707cdd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8611bf9956dba95add8f6a13e80d492f') in 0.055036 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 152
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 3.003710 seconds.
-  path: Assets/Zombies/Zombie3/Parasite L Starkie.fbx
-  artifactKey: Guid(8e94ef6b509555e4b8ca0bdc6063d5c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie3/Parasite L Starkie.fbx using Guid(8e94ef6b509555e4b8ca0bdc6063d5c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4c20bc1aff6cd27a47aea00cee5af0a') in 0.087162 seconds
+  Time since last request: 0.003289 seconds.
+  path: Assets/Ice Cream Truck/ice-cream-truck/source/car base low poly/Materials/group8_lowres_11120Mat.mat
+  artifactKey: Guid(182d78c4fcb0b6e4d977131e442bbb30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Cream Truck/ice-cream-truck/source/car base low poly/Materials/group8_lowres_11120Mat.mat using Guid(182d78c4fcb0b6e4d977131e442bbb30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c2246a31b68b31a71b8f8e2264dc388') in 0.093868 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 152
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 2.460109 seconds.
-  path: Assets/Zombies/Zombie3/Parasite L Starkie.fbx
-  artifactKey: Guid(8e94ef6b509555e4b8ca0bdc6063d5c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie3/Parasite L Starkie.fbx using Guid(8e94ef6b509555e4b8ca0bdc6063d5c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07de08741ce41697979644e0d7f354fb') in 0.073553 seconds
+  Time since last request: 0.000200 seconds.
+  path: Assets/Ice Cream Truck/ice-cream-truck/source/car base low poly/Materials/group8_lowres_11134Mat.mat
+  artifactKey: Guid(98cf69922ba04bd4cb4d4fbe6bf037fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Cream Truck/ice-cream-truck/source/car base low poly/Materials/group8_lowres_11134Mat.mat using Guid(98cf69922ba04bd4cb4d4fbe6bf037fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e08bac6c91d954531bcdb11352786fc') in 0.049784 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 152
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 11.575625 seconds.
-  path: Assets/Zombies/Zombie4/Girlscout T Masuyama.fbx
-  artifactKey: Guid(1b0292f8d8602bf4ba300daa000d794a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie4/Girlscout T Masuyama.fbx using Guid(1b0292f8d8602bf4ba300daa000d794a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf45219bc46029022ab4e2a9f67e3b0a') in 0.399455 seconds
+  Time since last request: 0.000053 seconds.
+  path: Assets/Ice Cream Truck/ice-cream-truck/source/car base low poly/Materials/group8_lowres_11133Mat.mat
+  artifactKey: Guid(9437fce375516e04ea8c9c92fb2b2d6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Cream Truck/ice-cream-truck/source/car base low poly/Materials/group8_lowres_11133Mat.mat using Guid(9437fce375516e04ea8c9c92fb2b2d6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc6a941ee2ee143a301532a2f39a4a74') in 0.059491 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 148
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 3.082296 seconds.
-  path: Assets/Zombies/Zombie4/Girlscout T Masuyama.fbx
-  artifactKey: Guid(1b0292f8d8602bf4ba300daa000d794a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie4/Girlscout T Masuyama.fbx using Guid(1b0292f8d8602bf4ba300daa000d794a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8d454059fb95714c4e505bd3311956f') in 0.077570 seconds
+  Time since last request: 0.000063 seconds.
+  path: Assets/Ice Cream Truck/ice-cream-truck/source/car base low poly/Materials/group8_lowres_11115Mat.mat
+  artifactKey: Guid(2c6879b15ab7fdd4989c4268b44858cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Cream Truck/ice-cream-truck/source/car base low poly/Materials/group8_lowres_11115Mat.mat using Guid(2c6879b15ab7fdd4989c4268b44858cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3e37060b0bf0d1f2b069995512542c1') in 0.043933 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 148
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 1.711214 seconds.
-  path: Assets/Zombies/Zombie4/Girlscout T Masuyama.fbx
-  artifactKey: Guid(1b0292f8d8602bf4ba300daa000d794a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie4/Girlscout T Masuyama.fbx using Guid(1b0292f8d8602bf4ba300daa000d794a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92a1771b3d64dd08e4e3f8d207d0c048') in 0.099065 seconds
+  Time since last request: 0.000143 seconds.
+  path: Assets/Ice Cream Truck/ice-cream-truck/source/car base low poly/Materials/group8_lowres_11125Mat.mat
+  artifactKey: Guid(8a8899590f15d6448b50d194e4368f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Cream Truck/ice-cream-truck/source/car base low poly/Materials/group8_lowres_11125Mat.mat using Guid(8a8899590f15d6448b50d194e4368f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c969b19f4a3a4493a3b240b579c4069f') in 0.040525 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 148
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 12.827815 seconds.
-  path: Assets/Zombies/Zombie5/copzombie_l_actisdato.fbx
-  artifactKey: Guid(bbf1dde8b3938fc4d98d84ea4dbe385c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie5/copzombie_l_actisdato.fbx using Guid(bbf1dde8b3938fc4d98d84ea4dbe385c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0210525d14a8055f81cbd0013badfec9') in 0.160391 seconds
+  Time since last request: 0.000031 seconds.
+  path: Assets/Ice Cream Truck/ice-cream-truck/source/car base low poly/Materials/group8_lowres_11130Mat.mat
+  artifactKey: Guid(e400e94405dc44e4b82ab8d7b77029ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Cream Truck/ice-cream-truck/source/car base low poly/Materials/group8_lowres_11130Mat.mat using Guid(e400e94405dc44e4b82ab8d7b77029ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '857b6313ae245c3ed8e732e9d38f63c5') in 0.049695 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 162
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 2.550152 seconds.
-  path: Assets/Zombies/Zombie5/copzombie_l_actisdato.fbx
-  artifactKey: Guid(bbf1dde8b3938fc4d98d84ea4dbe385c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie5/copzombie_l_actisdato.fbx using Guid(bbf1dde8b3938fc4d98d84ea4dbe385c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d22da30c33c159c33cd9b373aa2f21c') in 0.163987 seconds
+  Time since last request: 0.000093 seconds.
+  path: Assets/Ice Cream Truck/ice-cream-truck/source/car base low poly/Materials/group8_lowres_11123Mat.mat
+  artifactKey: Guid(5226801490f27a54cac769f382069c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Cream Truck/ice-cream-truck/source/car base low poly/Materials/group8_lowres_11123Mat.mat using Guid(5226801490f27a54cac769f382069c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08f64af82f24a1d69660696e53c343fc') in 0.035254 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 162
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 2.201525 seconds.
-  path: Assets/Zombies/Zombie5/copzombie_l_actisdato.fbx
-  artifactKey: Guid(bbf1dde8b3938fc4d98d84ea4dbe385c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie5/copzombie_l_actisdato.fbx using Guid(bbf1dde8b3938fc4d98d84ea4dbe385c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5739057112d931519d944203493372e5') in 0.120044 seconds
+  Time since last request: 0.000411 seconds.
+  path: Assets/Ice Cream Truck/ice-cream-truck/source/car base low poly/Materials/group8_pSphere11Mat.mat
+  artifactKey: Guid(58ed8e8055e97da4db9c2a996b0bb6db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Cream Truck/ice-cream-truck/source/car base low poly/Materials/group8_pSphere11Mat.mat using Guid(58ed8e8055e97da4db9c2a996b0bb6db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8920730118a28d53fd99924c5c008940') in 0.037468 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 162
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 6.322940 seconds.
-  path: Assets/Zombies/Zombie6/Pumpkinhulk L Shaw.fbx
-  artifactKey: Guid(03356974f99ff0547b78c796d17eeb89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie6/Pumpkinhulk L Shaw.fbx using Guid(03356974f99ff0547b78c796d17eeb89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c02ecdc3f0c59a28f0250a98e32c8bab') in 0.078553 seconds
+  Time since last request: 0.000073 seconds.
+  path: Assets/Ice Cream Truck/ice-cream-truck/source/car base low poly/Materials/group8_lowres_11124Mat.mat
+  artifactKey: Guid(c526ea4e66010f34b8080ce4467a4df2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Cream Truck/ice-cream-truck/source/car base low poly/Materials/group8_lowres_11124Mat.mat using Guid(c526ea4e66010f34b8080ce4467a4df2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9951f12cb32443ede07ab8d3615aef8c') in 0.048037 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 144
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 2.764867 seconds.
-  path: Assets/Zombies/Zombie6/Pumpkinhulk L Shaw.fbx
-  artifactKey: Guid(03356974f99ff0547b78c796d17eeb89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie6/Pumpkinhulk L Shaw.fbx using Guid(03356974f99ff0547b78c796d17eeb89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70156d1a407e809e522dff0aa667dcbc') in 0.078836 seconds
+  Time since last request: 0.000047 seconds.
+  path: Assets/Ice Cream Truck/ice-cream-truck/source/car base low poly/Materials/group8_lowres_11126Mat.mat
+  artifactKey: Guid(23433a6c7b7f37c4488eeba03ec1ca89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Cream Truck/ice-cream-truck/source/car base low poly/Materials/group8_lowres_11126Mat.mat using Guid(23433a6c7b7f37c4488eeba03ec1ca89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58d3a48956a6676b112916f85323048b') in 0.047715 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 144
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 2.728785 seconds.
-  path: Assets/Zombies/Zombie6/Pumpkinhulk L Shaw.fbx
-  artifactKey: Guid(03356974f99ff0547b78c796d17eeb89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie6/Pumpkinhulk L Shaw.fbx using Guid(03356974f99ff0547b78c796d17eeb89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a8b246182f48ea9ff38371fc299a621') in 0.057420 seconds
+  Time since last request: 0.000163 seconds.
+  path: Assets/Ice Cream Truck/ice-cream-truck/source/car base low poly/Materials/group8_lowres_11114Mat.mat
+  artifactKey: Guid(6c7d673fc3eea0c478f5d134f69635e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Cream Truck/ice-cream-truck/source/car base low poly/Materials/group8_lowres_11114Mat.mat using Guid(6c7d673fc3eea0c478f5d134f69635e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cd7c2faf0ea5136698297d9fdaf0062') in 0.040327 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 144
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 457.358957 seconds.
-  path: Assets/Zombies/Zombie5/copzombie_l_actisdato.fbx
-  artifactKey: Guid(bbf1dde8b3938fc4d98d84ea4dbe385c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie5/copzombie_l_actisdato.fbx using Guid(bbf1dde8b3938fc4d98d84ea4dbe385c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b68c4c9f3d5468e26270276694859529') in 0.182217 seconds
+  Time since last request: 0.000030 seconds.
+  path: Assets/Ice Cream Truck/ice-cream-truck/source/car base low poly/Materials/group8_lowres_11117Mat.mat
+  artifactKey: Guid(c2f36db49cf33da4c91ac7cdd0ba8f4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Cream Truck/ice-cream-truck/source/car base low poly/Materials/group8_lowres_11117Mat.mat using Guid(c2f36db49cf33da4c91ac7cdd0ba8f4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '101a41f8197e813125740407f77f41aa') in 0.034627 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 164
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 165.804939 seconds.
-  path: Assets/Zombies/Zombie5/Animations
-  artifactKey: Guid(f1ac187c99a84fc438b1dff002ae0c1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie5/Animations using Guid(f1ac187c99a84fc438b1dff002ae0c1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d2abe31cbafc04ec6f190923a6071ea') in 0.001119 seconds
+  Time since last request: 0.000086 seconds.
+  path: Assets/Ice Cream Truck/ice-cream-truck/source/car base low poly/Materials/group8_lowres_11129Mat.mat
+  artifactKey: Guid(9eb960facd2e4634f94c64474c08e076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Cream Truck/ice-cream-truck/source/car base low poly/Materials/group8_lowres_11129Mat.mat using Guid(9eb960facd2e4634f94c64474c08e076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c549e57d27109b5cca0861e43cebf9f') in 0.032410 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 51.650185 seconds.
-  path: Assets/Zombies/Zombie5/Animations/Zombie3.controller
-  artifactKey: Guid(a5c5b262feb9f3f4684988aac79c72ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie5/Animations/Zombie3.controller using Guid(a5c5b262feb9f3f4684988aac79c72ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7ad35ea0e32f7b246feae7aa382ee7d') in 0.012843 seconds
+  Time since last request: 0.000044 seconds.
+  path: Assets/Ice Cream Truck/ice-cream-truck/source/car base low poly/Materials/group8_pSphere1Mat.mat
+  artifactKey: Guid(770158b18bc630641aced1cd51beba7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Cream Truck/ice-cream-truck/source/car base low poly/Materials/group8_pSphere1Mat.mat using Guid(770158b18bc630641aced1cd51beba7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '001119834bc1ef8a2f65cf592a15c038') in 0.047536 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 101.300563 seconds.
-  path: Assets/Zombies/Zombie5/Animations/Not So Scary Zombie Pack cop
-  artifactKey: Guid(50c3e8053f8a03d4d8d9b459306a825a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie5/Animations/Not So Scary Zombie Pack cop using Guid(50c3e8053f8a03d4d8d9b459306a825a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4892beb9fc58fd183d8fa8b43b5a6097') in 0.000751 seconds
+  Time since last request: 0.000164 seconds.
+  path: Assets/Ice Cream Truck/ice-cream-truck/source/car base low poly/Materials/group8_pSphere7Mat.mat
+  artifactKey: Guid(74b8d02914231b84c92a360c41b9c9af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Cream Truck/ice-cream-truck/source/car base low poly/Materials/group8_pSphere7Mat.mat using Guid(74b8d02914231b84c92a360c41b9c9af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '879239353b8af9552e78c3c26ff96c66') in 0.037821 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.691584 seconds.
-  path: Assets/Zombies/Zombie5/Animations/Not So Scary Zombie Pack cop/walking.fbx
-  artifactKey: Guid(9384c92fa52c638488482c734b0431c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie5/Animations/Not So Scary Zombie Pack cop/walking.fbx using Guid(9384c92fa52c638488482c734b0431c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38897d22b5bddfe8fd87d4dc8f41ac7d') in 0.007097 seconds
+  Time since last request: 0.000555 seconds.
+  path: Assets/Ice Cream Truck/ice-cream-truck/source/car base low poly/Materials/group8_pSphere3Mat.mat
+  artifactKey: Guid(a17d0701ecea013459162b34bbba668d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Cream Truck/ice-cream-truck/source/car base low poly/Materials/group8_pSphere3Mat.mat using Guid(a17d0701ecea013459162b34bbba668d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e9a6b163731d9c638bd6cf8b89b9886') in 0.051246 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 139
-========================================================================
-Received Import Request.
-  Time since last request: 0.005429 seconds.
-  path: Assets/Zombies/Zombie5/Animations/Not So Scary Zombie Pack cop/zombie attack.fbx
-  artifactKey: Guid(1d0c56fd8318f3b4287d271971478a07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie5/Animations/Not So Scary Zombie Pack cop/zombie attack.fbx using Guid(1d0c56fd8318f3b4287d271971478a07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f044978b49a7d7108a4ca81cc20ff006') in 0.013313 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 139
-========================================================================
-Received Import Request.
-  Time since last request: 0.013804 seconds.
-  path: Assets/Zombies/Zombie5/Animations/Not So Scary Zombie Pack cop/zombie idle.fbx
-  artifactKey: Guid(cdb1b38b4186bce488ec9b85a8421695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie5/Animations/Not So Scary Zombie Pack cop/zombie idle.fbx using Guid(cdb1b38b4186bce488ec9b85a8421695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be7f67e181303f2558a6e02e0e3500e4') in 0.021577 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 139
-========================================================================
-Received Import Request.
-  Time since last request: 0.000068 seconds.
-  path: Assets/Zombies/Zombie5/Animations/Not So Scary Zombie Pack cop/zombie running.fbx
-  artifactKey: Guid(735421cb55122324e9fb6d1e5e3ee617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie5/Animations/Not So Scary Zombie Pack cop/zombie running.fbx using Guid(735421cb55122324e9fb6d1e5e3ee617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43fd17cfd4f161c0364ca64f8d078023') in 0.013293 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 139
-========================================================================
-Received Import Request.
-  Time since last request: 0.000065 seconds.
-  path: Assets/Zombies/Zombie5/Animations/Not So Scary Zombie Pack cop/zombie kicking (2).fbx
-  artifactKey: Guid(1b1dc1ca9d581544caa4652f0075d3e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie5/Animations/Not So Scary Zombie Pack cop/zombie kicking (2).fbx using Guid(1b1dc1ca9d581544caa4652f0075d3e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '920c1e812eb1b736227571b7edfc2254') in 0.015000 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 139
-========================================================================
-Received Import Request.
-  Time since last request: 0.000096 seconds.
-  path: Assets/Zombies/Zombie5/Animations/Not So Scary Zombie Pack cop/zombie kicking.fbx
-  artifactKey: Guid(8f22f389a3ed19b44bebdc84f71161a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie5/Animations/Not So Scary Zombie Pack cop/zombie kicking.fbx using Guid(8f22f389a3ed19b44bebdc84f71161a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '828802cae011f1f644b4169d99ce93eb') in 0.012685 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 139
-========================================================================
-Received Import Request.
-  Time since last request: 0.000064 seconds.
-  path: Assets/Zombies/Zombie5/Animations/Not So Scary Zombie Pack cop/zombie stumbling.fbx
-  artifactKey: Guid(0afbdb2437103d74cb2925e04f7e919c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie5/Animations/Not So Scary Zombie Pack cop/zombie stumbling.fbx using Guid(0afbdb2437103d74cb2925e04f7e919c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '417468444375920340f7f61357e769bf') in 0.010439 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 139
-========================================================================
-Received Import Request.
-  Time since last request: 0.000191 seconds.
-  path: Assets/Zombies/Zombie5/Animations/Not So Scary Zombie Pack cop/zombie reaction hit (2).fbx
-  artifactKey: Guid(f7478f16ad152ca44afee931ea81fb26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie5/Animations/Not So Scary Zombie Pack cop/zombie reaction hit (2).fbx using Guid(f7478f16ad152ca44afee931ea81fb26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f66aafad670865a645d856674705938') in 0.019313 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 139
-========================================================================
-Received Import Request.
-  Time since last request: 0.000070 seconds.
-  path: Assets/Zombies/Zombie5/Animations/Not So Scary Zombie Pack cop/zombie headbutt.fbx
-  artifactKey: Guid(ef17a0da87aaecf41bd15e2d169942c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie5/Animations/Not So Scary Zombie Pack cop/zombie headbutt.fbx using Guid(ef17a0da87aaecf41bd15e2d169942c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0022b513edfb3b62418aba8f95923cd') in 0.014828 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 139
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Zombies/Zombie5/Animations/Not So Scary Zombie Pack cop/zombie transition (2).fbx
-  artifactKey: Guid(e16dddff09702c648b78df32d9a23fd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie5/Animations/Not So Scary Zombie Pack cop/zombie transition (2).fbx using Guid(e16dddff09702c648b78df32d9a23fd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4530f6a4b32067a025ab821db0bd6a51') in 0.011497 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 139
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Zombies/Zombie5/Animations/Not So Scary Zombie Pack cop/zombie stand up (2).fbx
-  artifactKey: Guid(61dc69c94e6f3a440ac53588124df8f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie5/Animations/Not So Scary Zombie Pack cop/zombie stand up (2).fbx using Guid(61dc69c94e6f3a440ac53588124df8f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e95625c2d38325ffc2c8792250179c52') in 0.013536 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 139
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
   Time since last request: 0.000045 seconds.
-  path: Assets/Zombies/Zombie5/Animations/Not So Scary Zombie Pack cop/zombie turn.fbx
-  artifactKey: Guid(f9e17638059c89642ac0f80d9e4de034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie5/Animations/Not So Scary Zombie Pack cop/zombie turn.fbx using Guid(f9e17638059c89642ac0f80d9e4de034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a02f0bbf2aaa46539852dff971fc0b22') in 0.009832 seconds
+  path: Assets/Ice Cream Truck/ice-cream-truck/source/car base low poly/Materials/group8_pSphere12Mat.mat
+  artifactKey: Guid(4e7d864eb7bad744eaa38a9b53223e6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Cream Truck/ice-cream-truck/source/car base low poly/Materials/group8_pSphere12Mat.mat using Guid(4e7d864eb7bad744eaa38a9b53223e6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0969da260df91129b18b395ffb985e52') in 0.034083 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 139
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Zombies/Zombie5/Animations/Not So Scary Zombie Pack cop/zombie punching.fbx
-  artifactKey: Guid(1b58a52d355e7764798c485231baa02e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie5/Animations/Not So Scary Zombie Pack cop/zombie punching.fbx using Guid(1b58a52d355e7764798c485231baa02e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94e4cf66baa541a857e5a8183e56a275') in 0.009522 seconds
+  Time since last request: 12.402971 seconds.
+  path: Assets/Ice Cream Truck/ice-cream-truck/textures/low_UV1_metal1_BaseColor.png
+  artifactKey: Guid(64b0262208a448444b30ccd34bcf0dae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Cream Truck/ice-cream-truck/textures/low_UV1_metal1_BaseColor.png using Guid(64b0262208a448444b30ccd34bcf0dae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '465cd46a5b8e7d5f3934a4c5fcad0ce3') in 0.115141 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 139
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Zombies/Zombie5/Animations/Not So Scary Zombie Pack cop/zombie transition.fbx
-  artifactKey: Guid(a349bd77e7c2af54bb9bb1953afcf625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombies/Zombie5/Animations/Not So Scary Zombie Pack cop/zombie transition.fbx using Guid(a349bd77e7c2af54bb9bb1953afcf625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aff034058a4891c9750a70333283d25') in 0.008111 seconds
+  Time since last request: 0.000123 seconds.
+  path: Assets/Ice Cream Truck/ice-cream-truck/textures/low_UV5_rubber_Roughness.png
+  artifactKey: Guid(ad42d7ca4147f5c479803ce455e8e0ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Cream Truck/ice-cream-truck/textures/low_UV5_rubber_Roughness.png using Guid(ad42d7ca4147f5c479803ce455e8e0ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7559e9cbdff138644704ae10754bdf3d') in 0.071549 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 139
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Ice Cream Truck/ice-cream-truck/textures/low_UV_metal_group_Roughness.png
+  artifactKey: Guid(98a492ccf40192f46a068c5143f007dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Cream Truck/ice-cream-truck/textures/low_UV_metal_group_Roughness.png using Guid(98a492ccf40192f46a068c5143f007dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0d774599c7818ca7b7357dba45720cd') in 0.077397 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/Ice Cream Truck/ice-cream-truck/textures/low_UV2_glass2_Roughness.png
+  artifactKey: Guid(d8f917642cb3d694e9e0822e835f0933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Cream Truck/ice-cream-truck/textures/low_UV2_glass2_Roughness.png using Guid(d8f917642cb3d694e9e0822e835f0933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '894161ae163c184b1b18585ca0a73a88') in 0.063912 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Ice Cream Truck/ice-cream-truck/textures/low_UV2_glass2_Metalness.png
+  artifactKey: Guid(9ce76c629df514643820c4cb3f170ecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Cream Truck/ice-cream-truck/textures/low_UV2_glass2_Metalness.png using Guid(9ce76c629df514643820c4cb3f170ecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '754b83792a260770d3cad1ea90c0fe71') in 0.066348 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Ice Cream Truck/ice-cream-truck/textures/low_UV3_plastic_Normal.png
+  artifactKey: Guid(130606307480b9046b0ad48ef1605f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Cream Truck/ice-cream-truck/textures/low_UV3_plastic_Normal.png using Guid(130606307480b9046b0ad48ef1605f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb2491375e4c86cce12991a09218e486') in 0.057230 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: ќпераци€ ввода/вывода была прервана из-за завершени€ потока команд или по запросу приложени€.
 AssetImportWorker is now disconnected from the server
