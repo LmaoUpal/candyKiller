@@ -15,17 +15,29 @@ public class Rifle : MonoBehaviour
     // public Transform hand;
     
     [Header("Rifle Ammunition and shooting")]
-    // private int maximumAmmunition = 32;
+    private int maximumAmmunition = 32;
     public int mag = 10;
     private int presentAmmunition;
-    // public float reloadingTime = 1.3f;
-    // private bool setReloading = false;
+    public float reloadingTime = 1.3f;
+    private bool setReloading = false;
     
     [Header("Rifle Effects")]
     public ParticleSystem muzzleSpark;
     public GameObject WoodedEffect;
     public GameObject goreEffect;
-
+    
+    private void Start()
+    {
+        presentAmmunition = maximumAmmunition;
+    }
+    private void Update()
+    {
+        if(Input.GetButtonDown("Fire1"))
+        {
+            
+            Shoot();
+        }
+    }
     private void Shoot()
     {
         if(mag == 0)
@@ -33,12 +45,16 @@ public class Rifle : MonoBehaviour
             return;
         }   
 
-        presentAmmunition--;
+        presentAmmunition --;
 
         if(presentAmmunition == 0)
         {
             mag--;
+            presentAmmunition = maximumAmmunition;
         }
+
+        AmmoCount.occurrence.UpdateAmmoText(presentAmmunition);
+        AmmoCount.occurrence.UpdateMagText(mag);
 
         muzzleSpark.Play();
         RaycastHit hitInfo;
