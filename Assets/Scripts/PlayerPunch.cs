@@ -9,6 +9,8 @@ public class PlayerPunch : MonoBehaviour
     public float giveDamageOf = 10f;
     public float punchingRange = 5f;
 
+    [Header("Punch Effects")] 
+    public GameObject WoodenEffect;
     public void Punch()
     {
         RaycastHit hitInfo;
@@ -24,6 +26,7 @@ public class PlayerPunch : MonoBehaviour
             if(objectToHit != null)
             {
                 objectToHit.ObjectHitDamage(giveDamageOf);
+                GameObject WoodGo = Instantiate(WoodenEffect, hitInfo.point, Quaternion.LookRotation(hitInfo.normal));
             }
             else if(zombie1 != null)
             {
