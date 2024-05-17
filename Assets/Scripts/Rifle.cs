@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -8,13 +9,14 @@ public class Rifle : MonoBehaviour
     public Camera cam;
     public float giveDamageOf = 10f;
     public float shootingRange = 100f;
-    // public float fireCharge = 15f;
-    // private float nextTimeToShoot = 0f;
+    public float fireCharge = 15f;
+    private float nextTimeToShoot = 0f;
     // public Animator animator;
-    // public PlayerScript player;
-    // public Transform hand;
+    public PlayerScript player;
+    public Transform hand;
     
     [Header("Rifle Ammunition and shooting")]
+    
     private int maximumAmmunition = 32;
     public int mag = 10;
     private int presentAmmunition;
@@ -30,9 +32,25 @@ public class Rifle : MonoBehaviour
     {
         presentAmmunition = maximumAmmunition;
     }
+
+    public void Awake()
+    {
+        transform.SetParent(hand);
+        presentAmmunition = maximumAmmunition;
+    }
+
     private void Update()
     {
-        if(Input.GetButtonDown("Fire1"))
+        if(setReloading)
+            return;
+
+        if (presentAmmunition<=0)
+        {
+            StartCoroutine(Reload());
+            return;
+        }
+        
+        if(Input.GetButtonDown("Fire1") && Time.time >= nextTimeToShoot)
         {
             
             Shoot();
@@ -90,5 +108,19 @@ public class Rifle : MonoBehaviour
         
     }
 
+    IEnumerator Reload()
+    {
+        player.playerSpeed = 0f;
+        player.playerSprint = 0f;
+        setReloading = true;
+        Debug.Log("Reloading");
+
+        yield return new WaitForSeconds(reloadingTime);
+
+        presentAmmunition = maximumAmmunition;
+        player.playerSpeed = 1.9f;
+        player.playerSprint = 3f;
+        setReloading = false;
+    }
     
 }
