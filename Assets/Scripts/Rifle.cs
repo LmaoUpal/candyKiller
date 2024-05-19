@@ -11,12 +11,11 @@ public class Rifle : MonoBehaviour
     public float shootingRange = 100f;
     public float fireCharge = 15f;
     private float nextTimeToShoot = 0f;
-    // public Animator animator;
+    public Animator animator;
     public PlayerScript player;
     public Transform hand;
     
     [Header("Rifle Ammunition and shooting")]
-    
     private int maximumAmmunition = 32;
     public int mag = 10;
     private int presentAmmunition;
@@ -50,10 +49,31 @@ public class Rifle : MonoBehaviour
             return;
         }
         
-        if(Input.GetButtonDown("Fire1") && Time.time >= nextTimeToShoot)
+        if(Input.GetButton("Fire1") && Time.time >= nextTimeToShoot)
         {
-            
+            animator.SetBool("Fire", true);
+            animator.SetBool("Idle", false);
+            nextTimeToShoot = Time.time + 1f/fireCharge;
             Shoot();
+        }
+        else if(Input.GetButton("Fire1") && Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow))
+        {
+            animator.SetBool("Idle", false);
+            animator.SetBool("FireWalk", true);
+        }
+        else if(Input.GetButton("Fire2") && Input.GetButton("Fire1"))
+        {
+            animator.SetBool("Idle", false);
+            animator.SetBool("IdleAim", true);
+            animator.SetBool("FireWalk", true);
+            animator.SetBool("Walk", true);
+            animator.SetBool("Reloading", false);
+        }
+        else
+        {
+            animator.SetBool("Fire", false);
+            animator.SetBool("Idle", true);
+            animator.SetBool("FireWalk", false);
         }
     }
     private void Shoot()
@@ -114,9 +134,10 @@ public class Rifle : MonoBehaviour
         player.playerSprint = 0f;
         setReloading = true;
         Debug.Log("Reloading");
+        animator.SetBool("Reloading", true);
 
         yield return new WaitForSeconds(reloadingTime);
-
+        animator.SetBool("Reloading", false);
         presentAmmunition = maximumAmmunition;
         player.playerSpeed = 1.9f;
         player.playerSprint = 3f;
